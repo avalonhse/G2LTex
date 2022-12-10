@@ -3,5 +3,5 @@ services:
   opencv:
     image: "lehotcd/open3d:v1"
     build:
-      context: ../../
-      dockerfile: ./G2LTex/Config/Dockerfile
+      context: ../
+      dockerfile: ./DockerBuild/Dockerfile
