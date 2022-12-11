@@ -7,7 +7,7 @@ ADD ./src /home/G2LTex/
 
 RUN apt-get update -y && \
     apt-get install sudo libsuitesparse-dev apt-utils -y && \
-    echo "/home/G2LTex/lib" >> /etc/ld.so.conf && /sbin/ldconfig
+    echo "/home/G2LTex/src/lib" >> /etc/ld.so.conf && /sbin/ldconfig
 
 WORKDIR /home/G2LTex/
 
